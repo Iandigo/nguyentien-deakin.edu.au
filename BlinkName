@@ -1,0 +1,39 @@
+void setup() {
+
+  pinMode(D7, OUTPUT);
+
+}
+
+
+void loop() {
+  // To blink the LED, first we'll turn it on...
+  digitalWrite(D7, HIGH);
+  delay(500);
+  digitalWrite(D7, LOW);
+  delay(500);
+  digitalWrite(D7, HIGH);
+  delay(500);
+  digitalWrite(D7, LOW);
+  delay(500);
+  
+  // A
+  digitalWrite(D7, HIGH);
+  delay(500);
+  digitalWrite(D7, LOW);
+  delay(500);
+  digitalWrite(D7, HIGH);
+  delay(1000);
+  digitalWrite(D7, LOW);
+  delay(500);
+  
+  // N
+  digitalWrite(D7, HIGH);
+  delay(1000);
+  digitalWrite(D7, LOW);
+  delay(500);
+  digitalWrite(D7, HIGH);
+  delay(500);
+  digitalWrite(D7, LOW);
+  delay(500);
+
+}
