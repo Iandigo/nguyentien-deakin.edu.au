@@ -1,12 +1,13 @@
 void setup() {
-
+  // set up the LED
   pinMode(D7, OUTPUT);
-
 }
-
 
 void loop() {
   // To blink the LED, first we'll turn it on...
+  // write each letter in morse code
+  
+  // I
   digitalWrite(D7, HIGH);
   delay(500);
   digitalWrite(D7, LOW);
